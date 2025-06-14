@@ -1,0 +1,17 @@
+---
+services:
+  interactive_resume:
+    image: 3than/interactive_resume:1.0.0
+    container_name: interactive_resume
+    networks:
+      - frontend
+    labels:
+      traefik.enable: true
+      traefik.http.routers.interactive-resume.entrypoints: websecure
+      traefik.http.routers.interactive-resume.rule: Host(`3than.dev`)
+      traefik.http.routers.interactive-resume.tls: true
+      traefik.http.routers.interactive-resume.tls.certresolver: production
+    restart: unless-stopped
+networks:
+  frontend:
+    external: true

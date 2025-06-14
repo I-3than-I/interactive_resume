@@ -19,7 +19,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.address}
+          <a href={`tel:${CONTACT.phoneNo}`} className="border-b">
+            {CONTACT.phoneNo}
+            </a>
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -27,11 +29,10 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.phoneNo}
+          <a href={`mailto:${CONTACT.email}`} className="border-b">
+            {CONTACT.email}
+          </a>
         </motion.p>
-        <a href={`mailto:${CONTACT.email}`} className="border-b">
-          {CONTACT.email}
-        </a>
       </div>
     </div>
   );

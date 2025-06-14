@@ -1,9 +1,10 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaDocker } from "react-icons/fa";
+import { SiAuthentik } from "react-icons/si";
+import { SiPrometheus } from "react-icons/si";
+import { SiGrafana } from "react-icons/si";
+import { SiUbiquiti } from "react-icons/si";
+import { SiOpnsense } from "react-icons/si";
+import { FaUbuntu } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -42,7 +43,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <FaDocker className="text-7xl text-[#1D63ED]" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -50,7 +51,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <SiAuthentik className="text-7xl text-orange-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -58,23 +59,15 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500" />
+          <SiPrometheus className="text-7xl text-orange-700" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <SiGrafana className="text-7xl text-orange-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -82,7 +75,23 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <SiUbiquiti className="text-7xl text-[#0093D7]" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiOpnsense className="text-7xl text-orange-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaUbuntu className="text-7xl text-[#E95420]" />
         </motion.div>
       </motion.div>
     </div>

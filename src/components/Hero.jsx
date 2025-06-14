@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile.png.png";
+import profilePic from "../assets/cloud-security.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -23,7 +23,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-            Duck Johnson
+            Ethan Kuchta
             </motion.h2>
             <motion.span
               variants={container(0.5)}
@@ -31,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Software engineer intern
+              Cybersecurity enthusiast
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -43,17 +43,30 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="Sneha"
-            />
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="w-full lg:w-1/2 lg:p-8"
+        >
+          <div className="flex items-center justify-center">
+            <figure>
+              <img
+                className="rounded-2xl"
+                src={profilePic}
+                alt="Cloud Security - Secure Data - Cyber Security"
+              />
+              <figcaption className="text-xs">
+                  <a
+                    title="Blue Coat Photos, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via flickr"
+                    href="https://www.bluecoat.com/"
+                    className="border-b">
+                      Image Credits
+                  </a>
+              </figcaption>
+            </figure>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

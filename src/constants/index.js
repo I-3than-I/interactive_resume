@@ -3,38 +3,17 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = "I am an aspiring software engineer with a strong passion for developing efficient and innovative web applications. Through my academic experience and personal projects, I’ve gained practical knowledge in front-end technologies like React and Next.js, and back-end technologies such as Node.js and MongoDB. I am eager to apply my growing skills in a professional setting, collaborate on impactful projects, and contribute to building scalable and user-centric solutions."
+export const HERO_CONTENT = "I am an aspiring cybersecurity professional with a strong passion for evaluating the security of organizations through penetration testing. Through my academic experience and personal projects, I’ve gained practical knowledge in security technologies like XDR, SIEM, IDS/IPS, SSO, Zero Trust, Firewalls, vLANs, and VPNs. I am eager to apply my growing skills in a professional setting, collaborate on impactful projects, and contribute to building scalable and unified solutions."
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a cybersecurity professional with 2 years of experience. I have a bachelors degree in cybersecurity from the University of South Florida, where I graduated with the highest academic honors. I am currently in the process of applying to various universities to join a graduate program in cybersecurity. In my spare time, I explore various technologies using my custom-built homelab. I also develop small programs and scripts with the goal of improving automation in the industry. This site serves to showcase some of my projects and inspire others to learn more about information technology and cybersecurity.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "July 2023 - Present",
+    role: "Network Engineer Intern",
+    company: "Four Winds IT",
+    description: `Preform various sys-admin tasks, including system configuration, network installation, system monitoring, and account provisioning. Also develop various applications to increase efficiency in standard operating procedures.`,
+    technologies: ["SentinelOne", "NinjaOne", "Sonicwall", "Unifi", "Ruckus", "Entra ID", "Active Directory", "Powershell", "Python"],
   },
 ];
 
@@ -46,31 +25,9 @@ export const PROJECTS = [
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+1 727 387 9569",
+  email: "ethan@3than.dev",
 };
